@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Tahoma, sans-serif; background: #f0f2f5; color: #2c3e50; }
+.container { max-width: 980px; margin: 28px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+header { padding: 18px; background: #1a5276; color: #fff; border-radius: 6px; }
+header h1 { margin: 0 0 6px 0; font-size: 24px; }
+header p { margin: 0; font-size: 14px; opacity: 0.9; }
+nav { display: flex; gap: 14px; padding: 12px 0; border-bottom: 2px solid #ecf0f1; margin-bottom: 16px; }
+nav a { color: #1a5276; text-decoration: none; padding: 6px 12px; border-radius: 4px; font-weight: 600; }
+nav a:hover, nav a.active { background: #1a5276; color: #fff; }
+main { min-height: 260px; }
+table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+th, td { border: 1px solid #dfe6e9; padding: 10px; text-align: left; }
+th { background: #ecf0f1; }
+.btn { display: inline-block; padding: 8px 14px; background: #1a5276; color: #fff; text-decoration: none; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; }
+.btn-secondary { background: #7f8c8d; }
+.btn-link-danger { background: none; border: none; color: #c0392b; cursor: pointer; font-weight: bold; padding: 0; }
+.form-box { display: flex; flex-direction: column; gap: 10px; max-width: 450px; }
+.form-box input { padding: 8px; border: 1px solid #bdc3c7; border-radius: 4px; }
+footer { margin-top: 24px; padding: 14px; background: #ecf0f1; text-align: center; font-size: 13px; border-radius: 6px; }
